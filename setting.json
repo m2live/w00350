@@ -1,8 +1,8 @@
 {
     "meta": {
         "version": "1",
-        "hostName": "example",
-        "admin": "admin@example.com"
+        "hostName": "namjin-m2",
+        "admin": "hideface@winesoft.co.kr"
     },
     "hosting": [],
     "env": {
