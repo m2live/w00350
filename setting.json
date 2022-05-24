@@ -57,7 +57,7 @@
                 }
             },
             "http2": {
-                "enable": true,
+                "enable": false,
                 "concurrentStreamMaxCount": 10,
                 "keepAliveSec": 10
             },
@@ -159,7 +159,7 @@
                 },
                 "disks": [
                     {
-                        "mount": "/user/cache1",
+                        "mount": "/m2rt_cache",
                         "quota": 100,
                         "quotaUnit": "size"
                     }
