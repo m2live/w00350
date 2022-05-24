@@ -4,7 +4,31 @@
         "hostName": "namjin-m2",
         "admin": "hideface@winesoft.co.kr"
     },
-    "hosting": [],
+    "hosting": [
+        {
+            "listen": "*:80",
+            "origin": {
+                "address": [
+                    "www.winesoft.co.kr"
+                ],
+                "protocol": "http"
+            },
+            "functions": {
+                "contents": {
+                    "dims": {
+                        "meta": {
+                            "keyword": "namjin",
+                            "enable": true,
+                            "minSourceSize": 0,
+                            "maxSourceSize": 10
+                        }
+                    }
+                }
+            },
+            "name": "www.winesoft.co.kr",
+            "enable": true
+        }
+    ],
     "env": {
         "log": {
             "info": {
